@@ -96,7 +96,7 @@ print("choose a currency from below")
 for k,v in a.items():
     print(k,v)
 print("choose the currency you wanted to convert")
-print("while entering the currency use it initails like INR")
+print("while entering the currency use it initials like INR")
 b=input()
 #the currency that needed to be converted
 if b not in a.keys():
